@@ -8,8 +8,20 @@ function App() {
     <div className="App" style={{ textAlign: "start", padding: "20px" }}>
       <h1>Counter App</h1>
       <p style={{ fontSize: "18px" }}>Count : &nbsp;{count}</p>
-      <button name="Increment" style={{ padding: "10px 30px", marginRight: "10px" }} onClick={() => setCount(count + 1)}>Increment</button>
-      <button name="Decrement" style={{ padding: "10px 30px" }} onClick={() => setCount(count - 1)}>Decrement</button>
+      <button
+        name="Increment"
+        style={{ padding: "10px 30px", marginRight: "10px" }}
+        onClick={() => setCount(count + 1)}
+      >
+        Increment
+      </button>
+      <button
+        name="Decrement"
+        style={{ padding: "10px 30px" }}
+        onClick={() => setCount(count - 1)}
+      >
+        Decrement
+      </button>
     </div>
   );
 }
