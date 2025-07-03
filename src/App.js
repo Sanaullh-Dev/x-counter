@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App" style={{ textAlign: "start", padding: "20px" }}>
       <h1>Counter App</h1>
-      <p style={{ fontSize: "18px" }}>Count : &nbsp;{count}</p>
+      <p style={{ fontSize: "18px" }}>Count: {count}</p>
       <button
         name="Increment"
         style={{ padding: "10px 30px", marginRight: "10px" }}
